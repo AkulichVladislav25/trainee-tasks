@@ -33,34 +33,34 @@
     margin: 3px;  
 }
 .header button{
-    background-color: rgba(238, 235, 235, 0.13);
+    background-color: #c4bbb53f;
     width: 20%;
     height: 8%;
     border-radius: 4px;
     border: 1px solid #ffffff;
-    margin: 2%;
+    margin-top: 20px;
     color:#ffffff;    
 }
 
 
-.header-of-article{
+.article-header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    block-size: 45%;
 }
-.header-of-article a{
+.article-header a{
     font-family: 'Roboto', sans-setif;  
     color: #000000; 
-    font-weight: lighter;    
+    font-weight: lighter;     
+    padding: 20px 200px;
 }
-.header-of-article a:first-child{
+.article-header a:first-child{
     font-size: 35;
-    margin-top:5% ;
 }
-.header-of-article a:last-child{
+.article-header a:last-child{
     font-size: 16;
-    margin:5% 15% ;
     text-align: center;
 }
 
@@ -69,17 +69,17 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-image: url("/home/vlad/trainee-tasks/task-1/images/header.jpg");
+    align-items: center;
+    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/header.jpg?raw=true");
     block-size: 100%;
 }
 .navigation-article button{
-    background-color: rgba(238, 235, 235, 0.13);
+    background-color: #c4bbb53f;
     border-radius: 4px;
     border: 1px solid #ffffff;
     color:#ffffff; 
     width: 20%;
-    height: 8%;
-    margin-left:40%;
+    height: 8%;   
 }
 .navigation-article nav{
     display: flex;
@@ -97,10 +97,9 @@
     margin:50px 60px;   
     
 }
-.navigation-article nav ul li img{    
-    margin:50px 60px; 
+.navigation-article img{    
     clip-path: ellipse();
-    background-color: rgba(238, 235, 235, 0.13);         
+    border:30px solid #c4bbb53f;    
 }
 .navigation-article nav ul li a{
     display: flex;
@@ -120,122 +119,134 @@
     font-size: 12;     
 }
 
-.augue-article {
+.image-gallery-article {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url("/home/vlad/trainee-tasks/task-1/images/pic02.jpg");
+    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/pic02.jpg?raw=true");
     background-size: 100%;
     block-size: 100%;
-    padding: 9% 12%;
+    padding: 0px 200px 20px 240px;
+    
 }
-.augue-article ul:first-of-type{
-    margin-right: 20%;
+.image-gallery-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;    
 }
-.augue-article ul h1{
+.image-gallery-description li{
+    padding-top: 20px;
+}
+.image-gallery-description h1{
     color:#ffffff;
     font-size: 24;
 }
-.augue-article ul h2{
+.image-gallery-description h2{
     color:#ffffff;
-    margin-top: 10%;
-    font-size: 14; 
+    font-size: 15; 
+    padding-top: 20px;
 }
-.augue-article ul li button{
-    background-color: rgba(238, 235, 235, 0.13);
+.image-gallery-button{
+    background-color: #c4bbb53f;
     border-radius: 4px;
     border: 1px solid #ffffff;
     color:#ffffff; 
-    width: 80%;
-    height: 6%;
-    margin-top: 13%;
+    width: 180%;
+    height: 50px;
 }
-.augue-article section {
+.gallery-images img{    
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.augue-article section ul:last-child{
- margin-right: 60%;
-}
-.augue-article section img{
-    margin: 5%;
-    border-radius: 4px;    
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: space-between;
+    margin:15px;
+    border-radius: 4px;
+    height:170px;
+    width:250px;
 }
 
 .diam-article{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: url("/home/vlad/trainee-tasks/task-1/images/pic04.jpg");
-    background-size: 100%;
-    block-size: 100%;
-    padding: 3% 12%;
+    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/pic04.jpg?raw=true");
+    background-size: 130%;
+    block-size: 130%;
 }
 .diam-article img{
     clip-path: ellipse(200%);
-    width: 80%;
-    height: 40%;
-    margin-top: 5%; 
+    width: 70%;
+    height: 250px;
+    margin: 40px;
 }
 .diam-article section{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 70%;
+    padding-bottom: 150px;
 }
-.diam-article ul{
-    margin-right: 2%;
+.diam-article-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    width:45%;
+    
 }
-.diam-article section ul:last-child{
-    margin-top: 0.5%;
-}
-.diam-article section ul:first-child{
-    margin-top: 1.5%;
-}
-.diam-article ul h1{
+.diam-article-ul h1{
     color:#ffffff;
-    font-size: 18;
+    font-size: 22;
 }
-.diam-article ul h2{
+.diam-article-ul h2{
     color:#ffffff;
-    margin-top: 10%;
-    font-size: 12; 
+    font-size: 14; 
+}
+.diam-article-ul h3{
+    color:#ffffff;
+    font-size: 14; 
+    margin-top:10px;
 }
 .diam-article button{
-    background-color: rgba(238, 235, 235, 0.13);
+    background-color: #c4bbb53f;
     border-radius: 4px;
     border: 1px solid #ffffff;
     color:#ffffff; 
-    width: 70%;
+    width: 80%;
     height: 40px;
-    margin-top: 5%;
+    margin-top:20px;
 }
-
-.message-article section:first-child{
-    margin-left:23%;
+.message-article{
+    padding-bottom: 130px;
 }
-.message-article section:last-child{
-    margin-left:40%;
+.message-article-textarea{
+    text-align: center;
+    justify-content: space-between;
 }
-.message-article button{   
+.message-article-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.message-article-buttons button{ 
+  
     border-radius: 4px;
     width: 15%;
     height: 40px;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 10%;   
+    margin-top: 10px;
+    margin-left: 10px; 
 }
 .message-article button:first-child{
-    background-color: rgb(65, 62, 62);
+    background-color: #413e3e;
     color:#ffffff;
     border: 1px solid #ffffff; 
 }
 .message-article button:last-child{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     color:#000000; 
     border: 1px solid #cfcbcb;
 }
@@ -243,29 +254,39 @@
 .footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color: rgb(233, 230, 230);
-    block-size: 40%;
+    background-color: #e9e6e6;
+    block-size: 30%;
 }
 .footer section{
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-setif;  
     font-size:10;
     width: 100%;
     text-align: center;  
-      
 }
-.footer section:first-child{
-    margin-bottom: 3%;
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.icons img{
+    padding:10px;
+    width:40px;
+    height: 40px;
 }
 .copyright{
-    margin-bottom: 6%;
+    margin-bottom: 10px;
 }
 .footer img{
     clip-path: ellipse(45%);
 }
 .copyright b{
-  margin-left: 1%;  
+  margin-left: 5px;  
 }
 .copyright a{
     color:black;    
