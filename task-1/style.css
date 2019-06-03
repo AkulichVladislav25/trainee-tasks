@@ -3,32 +3,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/home/vlad/trainee-tasks/task-1/images/header.jpg");
+    background-image: url("https://99px.ru/sstorage/53/2015/10/tmb_144911_5440.jpg");
+    background-size:100%; 
     block-size: 100%;
 }
 .header b{
     font-family: 'Roboto', sans-setif;
-    font-size: 25;
+    font-size: 35;
     color: #ffffff;
     font-weight: lighter;
-    line-height: 2;
+    padding: 25px;
 }
 .header ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;    
+    padding:25px;
 }
 .header ul a{
     font-family: 'Roboto', sans-setif;   
-    font-size: 16;
+    font-size: 20;
     color: #ffffff; 
-    line-height: 2;
     font-weight: lighter;
 }
-.header ul li:last-child{   
-    text-decoration: underline;
-    text-decoration-style: dotted;
+.link-html5{  
+    text-decoration: none;
+    border-bottom: 1px dotted #ffffff;
     text-transform: uppercase;
     margin: 3px;  
 }
@@ -39,6 +40,7 @@
     border-radius: 4px;
     border: 1px solid #ffffff;
     margin-top: 20px;
+    font-size: 20;
     color:#ffffff;    
 }
 
@@ -48,20 +50,22 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    block-size: 45%;
+    block-size: 35%;
 }
 .article-header a{
     font-family: 'Roboto', sans-setif;  
-    color: #000000; 
-    font-weight: lighter;     
-    padding: 20px 200px;
+    color: #524f4f; 
+    font-weight:100;     
+    padding: 10px 350px;
+    line-height: 30px;
 }
 .article-header a:first-child{
-    font-size: 35;
+    font-size: 25;
+    margin-bottom: 10px;
 }
 .article-header a:last-child{
     font-size: 16;
-    text-align: center;
+    text-align: center;    
 }
 
 .navigation-article{
@@ -70,7 +74,8 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/header.jpg?raw=true");
+    background-image: url("https://images.wallpaperscraft.ru/image/fioletovyy_sploshnoy_fon_krasochnyy_65843_2048x1152.jpg");
+    background-size:100%;
     block-size: 100%;
 }
 .navigation-article button{
@@ -78,8 +83,9 @@
     border-radius: 4px;
     border: 1px solid #ffffff;
     color:#ffffff; 
-    width: 20%;
-    height: 8%;   
+    padding:15px 30px;
+    margin-top:30px;
+      
 }
 .navigation-article nav{
     display: flex;
@@ -87,44 +93,44 @@
     justify-content: center;
     align-items: center;       
 }
-.navigation-article nav ul{
+.navigation-article-nav-ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.navigation-article nav ul li{    
-    margin:50px 60px;   
-    
-}
 .navigation-article img{    
-    clip-path: ellipse();
-    border:30px solid #c4bbb53f;    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    background-origin: padding-box;
+    border: 15px solid #c4bbb53f;
+    margin-bottom: 50px;
 }
-.navigation-article nav ul li a{
+.navigation-article-nav-ul a{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:10px 60px;  
+    margin:30px 120px;  
     font-family: 'Roboto', sans-setif;  
     color: #ffffff; 
     font-weight: lighter;  
     text-align: center; 
 }
-.navigation-article nav ul li a:first-child{
-    font-size: 18;  
+.navigation-article-nav-ul a:first-child{
+    font-size: 28;  
 }
-.navigation-article nav ul li a:last-child{
-    font-size: 12;     
+.navigation-article-nav-ul a:last-child{
+    font-size: 18;     
 }
 
 .image-gallery-article {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/pic02.jpg?raw=true");
+    background-image: url("./images/pic02.jpg");
     background-size: 100%;
     block-size: 100%;
     padding: 0px 200px 20px 240px;
@@ -133,19 +139,21 @@
 .image-gallery-description{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;    
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right:10px;
+    margin-bottom:150px; 
 }
 .image-gallery-description li{
-    padding-top: 20px;
+    padding-top: 20px;    
 }
 .image-gallery-description h1{
     color:#ffffff;
-    font-size: 24;
+    font-size: 34;
 }
 .image-gallery-description h2{
     color:#ffffff;
-    font-size: 15; 
+    font-size: 25; 
     padding-top: 20px;
 }
 .image-gallery-button{
@@ -155,34 +163,35 @@
     color:#ffffff; 
     width: 180%;
     height: 50px;
+    margin-top:20px;
 }
 .gallery-images img{    
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: space-between;
-    margin:15px;
+    margin:30px 15px;
     border-radius: 4px;
-    height:170px;
-    width:250px;
+    height:200px;
+    width:300px;
+    
 }
 
-.diam-article{
+.first-article{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    background-image: url("https://github.com/AkulichVladislav25/trainee-tasks/blob/master/task-1/images/pic04.jpg?raw=true");
-    background-size: 130%;
-    block-size: 130%;
+    background-image: url("./images/pic04.jpg");
+    background-size: 100%;
+    block-size: 100%;
 }
-.diam-article img{
+.first-article img{
     clip-path: ellipse(200%);
     width: 70%;
     height: 250px;
-    margin: 40px;
+    margin-top: 40px;
 }
-.diam-article section{
+.first-article section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -190,27 +199,28 @@
     width: 70%;
     padding-bottom: 150px;
 }
-.diam-article-ul{
+.first-article-ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;    
-    width:45%;
-    
+    margin-left:20px;
+    width:300px;
+    padding-top:25px;
 }
-.diam-article-ul h1{
+.first-article-ul h1{
     color:#ffffff;
-    font-size: 22;
+    font-size: 32;
 }
-.diam-article-ul h2{
+.first-article-ul h2{
     color:#ffffff;
-    font-size: 14; 
+    font-size: 20; 
 }
-.diam-article-ul h3{
+.first-article-ul h3{
     color:#ffffff;
-    font-size: 14; 
+    font-size: 20; 
     margin-top:10px;
 }
-.diam-article button{
+.first-article button{
     background-color: #c4bbb53f;
     border-radius: 4px;
     border: 1px solid #ffffff;
@@ -220,11 +230,18 @@
     margin-top:20px;
 }
 .message-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     padding-bottom: 130px;
+    
 }
-.message-article-textarea{
-    text-align: center;
-    justify-content: space-between;
+.message-article textarea{
+    border-radius: 4px;
+    padding:10px;
+    margin:8px;
+    background-color: #e6e6e6;
 }
 .message-article-buttons{
     display: flex;
@@ -233,10 +250,8 @@
     align-items: center; 
 }
 .message-article-buttons button{ 
-  
     border-radius: 4px;
-    width: 15%;
-    height: 40px;
+    
     margin-top: 10px;
     margin-left: 10px; 
 }
@@ -244,11 +259,13 @@
     background-color: #413e3e;
     color:#ffffff;
     border: 1px solid #ffffff; 
+    padding: 20px 60px;
 }
 .message-article button:last-child{
     background-color: #ffffff;
     color:#000000; 
     border: 1px solid #cfcbcb;
+    padding: 20px 40px;
 }
 
 .footer{
@@ -257,13 +274,13 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #e9e6e6;
-    block-size: 30%;
+    block-size: 50%;
 }
 .footer section{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-setif;  
-    font-size:10;
+    font-size:15;
     width: 100%;
     text-align: center;  
 }
@@ -272,7 +289,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding:20px;
+    padding:60px 20px;
 }
 .icons img{
     padding:10px;
@@ -280,7 +297,8 @@
     height: 40px;
 }
 .copyright{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color:#413e3e;
 }
 .footer img{
     clip-path: ellipse(45%);
@@ -289,7 +307,7 @@
   margin-left: 5px;  
 }
 .copyright a{
-    color:black;    
+    color:#413e3e;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
