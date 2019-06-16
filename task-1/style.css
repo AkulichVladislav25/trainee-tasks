@@ -77,40 +77,52 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    height: 1000px;
     background-image: url("https://images.wallpaperscraft.ru/image/fioletovyy_sploshnoy_fon_krasochnyy_65843_2048x1152.jpg");
-    background-size:100%;
-    block-size: 100%;
 }
-.navigation-article button{
-    background-color: #c4bbb53f;
-    border-radius: 4px;
-    border: 1px solid #ffffff;
-    color:#ffffff; 
-    padding:15px 30px;
-    margin-top:30px;
-      
-}
-.navigation-article nav{
+.navigation-article-nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;       
+    align-items: center;     
+    margin-bottom: 30px;  
 }
-.navigation-article-nav-ul{
+.navigation-article-nav-list{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.navigation-article img{    
+.nav-list-image img{    
     width: 150px;
     height: 150px;
-    border-radius: 50%; 
+    border-radius: 47%; 
+    padding:20px;
+    background-color: #c4bbb53f;
     background-origin: padding-box;
-    border: 15px solid #c4bbb53f;
-    margin-bottom: 50px;
+    border: 1px solid #f3efeca1;
+    margin-bottom: 150px;
 }
-.navigation-article-nav-ul a{
+.nav-list-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+}
+.nav-list-image:after{
+    position: absolute; 
+    content: '.';
+    font-size: 120;
+    color:#f3efeca1;
+    width: 0px;
+    margin-top: 65px;
+    padding-right:14px;
+    height: 90px; 
+    border-right: 2px solid #f3efeca1;
+}
+
+.navigation-article-nav-list{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,11 +132,13 @@
     font-weight: lighter;  
     text-align: center; 
 }
-.navigation-article-nav-ul a:first-child{
-    font-size: 28;  
+.navigation-article-nav-list h2{
+    font-size: 28; 
+    margin-bottom: 30px; 
 }
-.navigation-article-nav-ul a:last-child{
+.navigation-article-nav-list p{
     font-size: 18;     
+    line-height: 30px;
 }
 
 .image-gallery-article {
