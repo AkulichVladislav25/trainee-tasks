@@ -170,14 +170,12 @@
     margin-top: 20px;
 }
 .gallery-images{
-  margin-top: 70px;
-}
-.gallery-images:last-of-type{
-    margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    margin-top: 70px;
 }
 .gallery-images img{    
-    display: flex;
-    flex-flow: column wrap;    
     border-radius: 8px;
     margin-top: 30px;
     margin-right: 30px;
