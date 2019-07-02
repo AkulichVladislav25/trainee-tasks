@@ -40,8 +40,8 @@
 .transparent-button{
     font-family: 'Roboto', sans-setif;
     background-color: #c4bbb53f;
-    width: 330px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
     border-radius: 4px;
     border: 1px solid #ffffff;
     font-size: 20;
@@ -57,7 +57,7 @@
     background-color: #ffffff;
     height: 300px; 
     color: #747474; 
-    font-weight:lighter;   
+    font-weight:lighter;  
 }
 .article-header h2{ 
     font-size: 35;
@@ -139,22 +139,29 @@
     line-height: 30px;
 }
 
-.image-gallery-article {
+.image-gallery-article{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-    height: 1000px; 
+    height: 800px; 
     background-image: url("./images/pic02.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
 }
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
 .image-gallery-description{
     font-weight: lighter;
-    margin-left: 250px;
     line-height: 30px;
-    margin-top: 100px;
-    margin-right: 30px;
+    margin-right: 50px;
+    width: 30vw;
+    margin-left:10px;
 }
 .image-gallery-description h2{
     color:#ffffff;
@@ -168,22 +175,24 @@
 }
 .image-gallery-description button{
     margin-top: 20px;
+    width:30vw;
 }
 .gallery-images{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;  
-    margin-top: 70px;
 }
 .gallery-images img{    
     border-radius: 8px;
     margin-top: 30px;
     margin-right: 30px;
-    height:200px;
-    width:300px;    
+    height: 13vw;
+    width: 18vw;
+    max-height: 200px;
+    max-width: 300px;
 }
 
-.information-article{
+.info-article{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,37 +201,38 @@
     background-repeat: no-repeat; 
     background-size: cover;
 }
-.information-article img{
-    width: 900px;
-    height: 250px;
+.info-article img{
+    width: 80vw;
+    height: 15vw;
     margin-top: 70px;
     border-radius: 8px; 
 }
-.information-article-section{
+.info-article-section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 150px;
     margin-left: 150px;
     margin-right: 150px;
 }
-.information-article-section section{
-margin-right: 20px;
+.info-article-section-item{
+    margin-right: 20px;
+    width:25vw;
+    height: 50vw;
 }
-.information-article-section h2{
+.info-article-section h2{
     color:#ffffff;
     font-size: 20;
     margin: 20px 0px;
     line-height: 30px;
 }
-.information-article-section p{
+.info-article-section p{
     color:#ffffff;
     font-size: 14;
     margin: 20px 0px;
     line-height: 30px;
 }
-.information-article-section button{
+.info-article-section button{
     margin-top: 20px;
 }
 
@@ -236,11 +246,29 @@ margin-right: 20px;
     padding-bottom: 130px;
     
 }
-.message-article textarea{
+.message-article input{
+    width:35vw;
+    height:4vw;
+    border:1px solid #ebebeb;
+    background-color: #f3f3f3;
     border-radius: 4px;
-    padding:10px;
-    margin:8px;
-    background-color: #e6e6e6;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left:10px;
+    color:#4b4b4b;
+    font-size: 14;
+}
+.message-article textarea{
+    width:71vw;
+    height:10vw;
+    border:1px solid #ebebeb;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    padding-left:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    color:#4b4b4b;
+    font-size: 14;
 }
 .message-article-buttons{
     display: flex;
@@ -250,7 +278,6 @@ margin-right: 20px;
 }
 .message-article-buttons button{ 
     border-radius: 4px;
-    
     margin-top: 10px;
     margin-left: 10px; 
 }
@@ -272,14 +299,13 @@ margin-right: 20px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 300px;
     background-color: #e9e6e6;
-    block-size: 50%;
 }
 .footer section{
     justify-content: center;
     align-items: center;
     font-size:15;
-    width: 100%;
     text-align: center;  
 }
 .icons{
@@ -288,6 +314,7 @@ margin-right: 20px;
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 .icons img{
     padding:10px;
