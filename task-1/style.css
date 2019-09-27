@@ -251,7 +251,7 @@
     width:100%;
 }
 .message-article input{
-    width:39%;
+    width:400px;
     height: 50px;
     border:1px solid #a9a9a9;
     background-color: #f8f8f8;
@@ -269,7 +269,7 @@
     width:100%; 
 }
 .message-article textarea{
-    width:79%;
+    width:400px;
     height:150px;
     border:1px solid #a9a9a9;
     background-color: #f8f8f8;
