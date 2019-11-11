@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
   <body class="body">
     <header class="header">
@@ -20,8 +24,8 @@
           <span class="header-description"> and released for free under the </span>
           <a class="header-link" href="URL">Creative Commons license.</a> 
         </section>
-       </section>      
-      <button class="move-down-button">↓</button>
+        <i class="material-icons" style='font-size:48px'>&#xe5db;</i>
+      </section>      
     </header>
     <main class="main">
       <nav class="navigation">
@@ -31,14 +35,16 @@
           <button class="navigation-button">elements reference</button>
         </section>
         <section class="nav-icons">
-          <img src="https://www.flaticon.com/premium-icon/icons/svg/665/665228.svg" alt="twitter" >
-          <img src="https://image.flaticon.com/icons/svg/54/54422.svg" alt="facebook">
-          <img src="https://image.flaticon.com/icons/svg/1362/1362857.svg" alt="instagram">
-          <img src="https://image.flaticon.com/icons/svg/733/733609.svg" alt="github">
+          <i class='fab fa-twitter'></i>
+          <i class='fab fa-facebook-f'></i>
+          <i class='fab fa-instagram'></i>
+          <i class='fab fa-github'></i>
         </section>
       </nav>
       <article class="header-article">
-        <time class="time">April 25, 2017</time>
+        <div class="block">
+          <span class="date">April 25, 2017</span>
+        </div>
         <h2 class="article-h2"> and this is a </br>  massive headline </h2>
         <p class="article-p"> Aenean ornare velit lacus varius enim ullamcorper proin aliquam
         </br> facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor
@@ -49,14 +55,14 @@
       </article>
       <article class="info-article">
           <section class="page-article">
-            <time class="time">April 24, 2017</time>
+            <span class="time">April 24, 2017</span>
             <h2 class="article-h2"> SED MAGNA </br>  IPSUM FAUCIBUS</h2>
             <img src="./images/3.jpg" alt="header-article-image">
             <p class="article-p"> Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
             <button class="article-button">full story</button>
           </section>
           <section class="page-article">
-            <time class="time">April 22, 2017</time>
+            <span class="time">April 22, 2017</span>
             <h2 class="article-h2"> PRIMIS EGET </br> IMPERDIET LOREM </h2>    
             <img src="./images/4.jpg" alt="header-article-image">      
             <p class="article-p">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -65,14 +71,14 @@
       </article>
       <article class="info-article">
         <section class="page-article">
-          <time class="time">April 24, 2017</time>
+          <span class="time">April 24, 2017</span>
           <h2 class="article-h2"> ANTE MATTIS </br> INTERDUM DOLOR</h2>
           <img src="./images/5.jpg" alt="header-article-image">
           <p class="article-p"> Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
           <button class="article-button">full story</button>
         </section>
         <section class="page-article">
-          <time class="time">April 22, 2017</time>
+          <span class="time">April 22, 2017</span>
           <h2 class="article-h2"> TEMPUS SED </br> NULLA IMPERDIET </h2>    
           <img src="./images/6.jpg" alt="header-article-image">      
           <p class="article-p"> Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -81,14 +87,14 @@
       </article>
       <article class="info-article">
         <section class="page-article">
-          <time class="time">April 24, 2017</time>
+          <span class="time">April 24, 2017</span>
           <h2 class="article-h2"> ODIO MAGNA </br> SED CONSECTETUR</h2>
           <img src="./images/7.jpg" alt="header-article-image">
           <p class="article-p"> Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
           <button class="article-button">full story</button>
         </section>
         <section class="page-article">
-          <time class="time">April 22, 2017</time>
+          <span class="time">April 22, 2017</span>
           <h2 class="article-h2"> AUGUE LOREM </br> PRIMIS VESTIBULUM </h2>    
           <img src="./images/8.jpg" alt="header-article-image">      
           <p class="article-p"> Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -99,11 +105,11 @@
         <button class="page-nav-button">1</button>
         <button class="page-nav-button">2</button>
         <button class="page-nav-button">3</button>
-        <button class="page-nav-button">...</button>
+        <button class="page-nav-button-dots">...</button>
         <button class="page-nav-button">8</button>
         <button class="page-nav-button">9</button>
         <button class="page-nav-button">10</button>
-        <button class="page-nav-button">next ></button>
+        <button class="page-nav-button">next <i class='fas fa-angle-right'></i></button>
       </nav>
       <article class="message-article">
         <section class="message-article-persontextarea">
@@ -119,7 +125,7 @@
             <label for="message" >message</label>     
             <textarea class="message" id="message"></textarea>
           </div>
-          <div class="field">
+          <div class="field-button">
             <button class="article-button">send message</button>  
           </div>
          </section>
@@ -134,15 +140,15 @@
             </section> 
             <section class="owner-info">
                 <h2 class="link-email">email</h2>
-                <a class="email" href="URL">info@untitled.tld </a>
+                <a class="email" href="URL">info@untitled.tld</a>
             </section> 
             <section class="owner-info">
                 <h2 class="link-social">social</h2>
                 <section class="nav-icons">
-                    <img src="https://www.flaticon.com/premium-icon/icons/svg/665/665228.svg" alt="twitter" >
-                    <img src="https://image.flaticon.com/icons/svg/54/54422.svg" alt="facebook">
-                    <img src="https://image.flaticon.com/icons/svg/1362/1362857.svg" alt="instagram">
-                    <img src="https://image.flaticon.com/icons/svg/733/733609.svg" alt="github">
+                  <i class='fab fa-twitter'></i>
+                  <i class='fab fa-facebook-f'></i>
+                  <i class='fab fa-instagram'></i>
+                  <i class='fab fa-github'></i>
                 </section>
             </section>  
           </section>
@@ -150,7 +156,7 @@
     </main>
     <footer class="footer">
       <div class="footer-link">
-        <b> ©Untitled. </b>
+        <b> ©Untitled </b>
       </div>
       <div class="footer-link">
         <b> Design:</b>
