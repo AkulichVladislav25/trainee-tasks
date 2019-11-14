@@ -1,0 +1,166 @@
+@media (min-width:0px) and (max-width: 600px) 
+{
+    .header h1{
+        font-size: 50px;       
+        margin-top:none; 
+    }
+    .header-description-link{
+        font-size: 10px; 
+    }
+    .material-icons{
+        font-size: 12px;
+        padding: 6px;
+    }
+    .main{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    .navigation{
+        height: 5vw;
+    }
+    .navigation-button{
+        height: 5vw;
+        width:20vw;
+        font-size: 7px;
+    }
+    .navigation-button:first-of-type{
+        width:22vw;
+        font-size: 7px;
+    }
+    .navigation-button:last-of-type{
+        width:100px;
+    }
+    .nav-icons{
+        width: 100px;
+    }
+    .nav-icons i{
+        font-size:9px;
+        letter-spacing: 10px;
+    }
+    .block {
+        height: 10px;    
+    }
+    .block span {
+        font-size: 7px;
+    }
+    .article-h2{
+        font-size:25px;
+    }
+    .article-p{
+        margin-top:10px;
+        font-size:7px;
+    }
+    .header-article img{
+        margin-top:10px;
+    }
+    .article-button{
+        margin-top:20px;
+        margin-bottom:30px;
+        padding: 0 20px;
+        font-size: 6px;
+    }
+    .page-article span{
+        margin-bottom:10px;
+        margin-top: 20px;
+        font-size: 7px;
+    }
+    .page-article h2{
+        margin-bottom:10px;
+        font-size:11px;
+        letter-spacing: 2px;
+    }
+    .page-article img{
+        margin-bottom: 10px;
+    }
+    .page-article p{
+        font-size: 7px; 
+    }
+    .page-article button{
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+    .page-nav-button{
+        width:20px;
+        height:20px;
+        font-size:7px;
+        letter-spacing: 1px;
+    }
+    .page-nav-button-dots{
+        width:20px;
+        height:20px;
+        font-size:7px;
+        letter-spacing: 1px;
+    }
+    .page-nav-button:last-of-type{
+        width:45px;
+        letter-spacing: 1px;
+    }
+    .message-article-persontextarea label{
+        margin-bottom: 5px;
+        margin-top:10px;
+        font-size: 7px;
+    }
+    .message-article-persontextarea input{
+        width:20vh;
+        height: 2rem;
+        padding: 3px 5px;
+        font-size: 7px;
+        margin-bottom: 3px;
+    }
+    .message-article-persontextarea textarea{
+        width:20vh;
+        height: 4rem;
+        padding: 3px 5px;
+        margin-bottom: 3px;
+        font-size: 7px;
+    }
+    .field-button{
+        width:20vh;
+    }
+    .message-article-persontextarea button{
+        padding: 0 5px;
+        margin-top:5px;
+        margin-bottom: 10px;
+        font-size:7px;
+    }
+    .owner-info:first-of-type h2{
+        margin-bottom: 2vh;
+    }
+    .owner-info h2{
+        padding-left:7px;
+        padding-right:30px;
+        font-size:7px;
+    }
+    .owner-info p{
+        font-size:7px;
+        letter-spacing: 1px;
+    }
+    .owner-info a{
+        font-size:7px;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+    .owner-info i{
+        width: 7px;
+        height: 7px;
+        padding:5px 2px;
+        padding-left:4px;
+        margin-left: 3px;
+        font-size: 7px;
+        line-height:10px;   
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer b{
+        font-size: 7px;
+      }
+    .footer a{
+        font-size: 7px;
+    }
+    .footer-link{
+        padding-right:1rem;
+        padding-left: 1rem;
+        font-size: 7px;
+    }
+}

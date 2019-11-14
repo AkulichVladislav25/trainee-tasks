@@ -83,7 +83,7 @@
 }
 .navigation-button{
     height: 90px;
-    width:250px;
+    width: 35%;
     background:#ffffff00;
     color:#ffffff;
     font-size: 17px;
@@ -248,7 +248,7 @@
 }
    
 .page-article button{
-   padding: 0 42px;
+   padding: 0 4vw;
    margin-top: 40px;
    margin-bottom: 50px;
 }
@@ -339,12 +339,24 @@
     background-color: transparent;
     border:2px solid #e2e2e2;
     margin-bottom: 10px;
+    color:#909498;
+    padding: 10px 25px;
+    font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 2.375;
 }
 .message-article-persontextarea textarea{
     width:60vh;
     height: 12rem;
     background-color: transparent;
     border:2px solid #e2e2e2;
+    padding: 10px 25px;
+    color:#909498;
+    font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 2.375;
 }
 .message-article-persontextarea:first-of-type{
     border-right:2px solid #e2e2e2;
