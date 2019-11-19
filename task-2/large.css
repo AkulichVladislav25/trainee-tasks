@@ -1,0 +1,181 @@
+@media (min-width:900px) and (max-width:1450px){
+    .header h1{
+        font-size: 90px;   
+        margin-top:none; 
+    }
+    .header-description-link{
+        font-size: 20px; 
+    }
+    .material-icons{
+        font-size: 15px;
+        padding: 8px;
+    }
+    .main{
+        margin-left:100px;
+        margin-right:100px;
+    }
+    .navigation{
+        height: 5vw;
+    }
+    .navigation-button{
+        height: 5vw;
+        width:12vw;
+        font-size: 11px;
+    }
+    .navigation-button:first-of-type{
+        width:14vw;
+        font-size: 11px;
+    }
+    .navigation-button:last-of-type{
+        width:14vw;
+    }
+    .nav-icons{
+        width: 120px;
+    }
+    .nav-icons i{
+        font-size:16px;
+        letter-spacing: 10px;
+    }
+    .header-article{
+        height: 75vw;
+    }
+    .block {
+        height: 17px;    
+    }
+    .block span {
+        font-size: 15px;
+    }
+    .block span:before {
+        right: 190px; 
+        width:900px;
+    }
+    .block span:after {
+        left: 190px; 
+        width:900px;
+    }
+    
+    .article-h2{
+        font-size:45px;
+        margin:none;
+    }
+    .article-p{
+        margin-top:20px;
+        font-size:11px;
+    }
+    .header-article img{
+        margin-top:20px;
+    }
+    .article-button{
+        margin-top:30px;
+        margin-bottom:40px;
+        padding: 0 25px;
+        font-size: 9px;
+    }
+    .page-article{
+      justify-content: flex-start;
+      height: 55vw;
+    }
+    .page-article span{
+        margin-top:none;
+        margin-bottom:30px;
+        font-size: 11px;
+    }
+    .page-article h2{
+        margin-bottom:20px;
+        font-size:16px;
+        letter-spacing: 2px;
+    }
+    .page-article img{
+        margin-bottom: 10px;
+    }
+    .page-article p{
+        font-size: 11px; 
+    }
+    .page-article button{
+        padding: 0 3vw;
+        margin-top:10px;
+        margin-bottom:25px;
+    }
+    .page-nav-button{
+        width:30px;
+        height:30px;
+        font-size:11px;
+    }
+    .page-nav-button-dots{
+        width:30px;
+        height:30px;
+        font-size:7px;
+    }
+    .page-nav-button:last-of-type{
+        width:75px;
+    }
+    .message-article-persontextarea{
+        height: 35vw;
+    }
+    .message-article-persontextarea label{
+        margin-bottom: 10px;
+        margin-top:20px;
+        font-size: 11px;
+    }
+    .message-article-persontextarea input{
+        width:40vh;
+        height: 2rem;
+        padding: 4px 7px;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .message-article-persontextarea textarea{
+        width:40vh;
+        height: 4rem;
+        padding: 4px 7px;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .field-button{
+        width:40vh;
+    }
+    .message-article-persontextarea button{
+        padding: 0 10px;
+        margin-top:10px;
+        margin-bottom: 20px;
+        font-size:11px;
+    }
+    .owner-info:first-of-type h2{
+        margin-bottom: 2vh;
+    }
+    .owner-info h2{
+        padding-left:11px;
+        padding-right:40px;
+        font-size:11px;
+    }
+    .owner-info p{
+        font-size:11px;
+    }
+    .owner-info a{
+        font-size:11px;
+        line-height: 1.25;
+    }
+    .owner-info i{
+        width: 13px;
+        height: 13px;
+        padding:4px 4px;
+        padding-left:10px;
+        margin-left: 3px;
+        font-size: 11px;
+        line-height:13px;   
+    }
+    .footer{
+        height: 80px;
+    }
+    .footer b{
+        font-size: 11px;
+      }
+    .footer a{
+        font-size: 11px;
+    }
+    .footer-link{
+        padding-right:2rem;
+        padding-left: 2rem;
+        font-size: 11px;
+    }
+}
