@@ -25,33 +25,22 @@
     line-height: 1;
 }
 .header-description-link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
     font-family: "Merriweather", Georgia, serif;
     font-size: 26px;
     font-style:  italic;
     color: #ffffff; 
     font-weight: 300;
     text-align: center;
+    line-height: 2.5; 
+    width:70%;
 }
-.header-description-part{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: space-evenly;  
-    margin-top:30px;
-}
-.header-link{  
+.header-link{
     text-decoration: none;
     border-bottom: 1px dotted #ffffff;
     color: #ffffff; 
     font-family: "Merriweather", Georgia, serif;
     font-weight: 300;
-    margin-right:8px;   
-    margin-left:8px;  
-    line-height: 1;     
+    line-height: 1; 
 }
 .material-icons{
     color:#ffffff;
@@ -248,8 +237,8 @@
 }
    
 .page-article button{
-   padding: 0 4vw;
-   margin-top: 40px;
+    padding: 0 4vw;
+    margin-top: 40px;
    margin-bottom: 50px;
 }
 
@@ -388,7 +377,7 @@
 .owner-info h2{
     padding-left:70px;
     padding-right:100px;
-    width:2vw;
+    width:5vh;
     color:#717981;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size:17px;
