@@ -14,12 +14,46 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
   <body class="body">
-    <header class="header">
-      <h1> This is massively </h1>  
-      <p class="header-description-link">A free, fully responsive HTML5 + CSS3 site template designed by <a class="header-link" href="URL">@ajlkn</a> for 
+    <div class="menu-section" id="menu-section" >
+      <section class="menu-block">
+         <button class="menu" onclick="viewDiv()"><i class="fas fa-bars"></i> menu </button>
+      </section>
+    </div>
+    <script>
+        function viewDiv(){
+            document.getElementById("nav-right-panel").style.display = "flex";
+            document.getElementById("menu-section").style.display = "none";
+        };
+        function hideDiv(){
+            document.getElementById("nav-right-panel").style.display = "none";
+            document.getElementById("menu-section").style.display = "flex";
+        }
+      </script>
+    <div class="nav-right-panel" id="nav-right-panel">
+      <section class="nav-right-panel-block">      
+          <div class="close-block">
+            <a href="#nav-panel" class="close" onclick="hideDiv()"><i class="fas fa-times"></i></a>
+          </div>
+          <nav class="nav-right">
+              <section class="nav-right-section">
+                <a href="#" class="nav-a">this is massively</a>
+                <a href="#" class="nav-a">generic page</a>
+                <a href="#" class="nav-a">elements reference</a>
+              </section>
+              <section class="nav-right-icons">
+                <i class='fab fa-twitter'></i>
+                <i class='fab fa-facebook-f'></i>
+                <i class='fab fa-instagram'></i>
+                <i class='fab fa-github'></i>
+              </section>
+          </nav>      
+       </section>
+    </div>
+    <header class="header">      
+        <h1> This is massively </h1>  
+        <p class="header-description-link">A free, fully responsive HTML5 + CSS3 site template designed by <a class="header-link" href="URL">@ajlkn</a> for 
         <a class="header-link" href="https://html5up.net">HTML5 UP</a><br> and released for free under the <a class="header-link" href="URL">Creative Commons license</a>.</p>
         <i class="material-icons" style='font-size:48px'>&#xe5db;</i>
-      </section>      
     </header>
     <main class="main">
       <nav class="navigation">
@@ -161,5 +195,6 @@
         <a href="URL"> UNSPLASH</a>
       </div>
     </footer>
+ 
   </body>
 </html>
