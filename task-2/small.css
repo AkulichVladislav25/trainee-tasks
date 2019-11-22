@@ -25,6 +25,9 @@
         height: 100vh;
         width:70vw;
         background-color:#ffffff;
+        position: fixed;
+        top:0;
+        right: 0;
     }
     .nav-right-panel{
         display: none;
