@@ -23,10 +23,12 @@
         function viewDiv(){
             document.getElementById("nav-right-panel").style.display = "flex";
             document.getElementById("menu-section").style.display = "none";
+            document.getElementById("block").style.display = "none";
         };
         function hideDiv(){
             document.getElementById("nav-right-panel").style.display = "none";
             document.getElementById("menu-section").style.display = "flex";
+            document.getElementById("block").style.display = "block";
         }
       </script>
     <div class="nav-right-panel" id="nav-right-panel">
@@ -70,7 +72,7 @@
         </section>
       </nav>
       <article class="header-article">
-        <div class="block">
+        <div class="block" id="block">
           <span class="date">April 25, 2017</span>
         </div>
         <h2 class="article-h2"> and this is a </br>  massive headline </h2>
