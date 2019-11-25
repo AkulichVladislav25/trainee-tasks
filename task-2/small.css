@@ -12,7 +12,9 @@
         position: fixed;
         top:10;
         right: 10;
-    }
+        box-shadow: 0 5vw 4vw 5vw rgba(30, 37, 45, 0.25);
+    }   
+    
     .menu i{
         color:#ffffff; 
         margin-right:5px;
@@ -267,8 +269,8 @@
         font-size: 8px;
     }
     .footer-link{
-        padding-right:1rem;
-        padding-left: 1rem;
+        padding-right:4px;
+        padding-left: 4px;
         font-size: 8px;
     }
 }
