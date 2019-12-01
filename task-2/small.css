@@ -11,10 +11,30 @@
         letter-spacing: 2px;
         position: fixed;
         top:10;
-        right: 10;
-        box-shadow: 0 5vw 4vw 5vw rgba(30, 37, 45, 0.25);
+        right: 30;
     }   
+    .menu-new{
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.875);
+        border: none;
+        color:#212931;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: fixed;
+        top:10;
+        right: 30;
+        box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
+    }
     
+    .menu-new i{
+        color:#212931; 
+        margin-right:5px;
+        line-height: 1.5;
+        font-size: 13px;
+    }
     .menu i{
         color:#ffffff; 
         margin-right:5px;

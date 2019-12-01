@@ -14,23 +14,32 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
   <body class="body">
+      <script>
+          function viewDiv(){
+              document.getElementById("nav-right-panel").style.display = "flex";
+              document.getElementById("menu-section").style.display = "none";
+              document.getElementById("block").style.display = "none";
+          };
+          function hideDiv(){
+              document.getElementById("nav-right-panel").style.display = "none";
+              document.getElementById("menu-section").style.display = "flex";
+              document.getElementById("block").style.display = "block";
+          }
+          document.addEventListener('scroll', () => {
+          const isTop = window.scrollY < 470;
+          if (isTop) {
+            document.getElementById("menu").className="menu"
+          }
+          else {
+            document.getElementById("menu").className="menu-new"
+          }
+          });
+      </script>
     <div class="menu-section" id="menu-section" >
       <section class="menu-block">
-         <button class="menu" onclick="viewDiv()"><i class="fas fa-bars"></i> menu </button>
+         <button class="menu" id="menu" onclick="viewDiv()"><i class="fas fa-bars"></i> menu </button>
       </section>
-    </div>
-    <script>
-        function viewDiv(){
-            document.getElementById("nav-right-panel").style.display = "flex";
-            document.getElementById("menu-section").style.display = "none";
-            document.getElementById("block").style.display = "none";
-        };
-        function hideDiv(){
-            document.getElementById("nav-right-panel").style.display = "none";
-            document.getElementById("menu-section").style.display = "flex";
-            document.getElementById("block").style.display = "block";
-        }
-      </script>
+    </div>   
     <div class="nav-right-panel" id="nav-right-panel">
       <section class="nav-right-panel-block">      
           <div class="close-block">
