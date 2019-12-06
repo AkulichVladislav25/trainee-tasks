@@ -137,10 +137,10 @@
     .navigation-button:last-of-type{
         width:100px;
     }
-    .nav-icons{
+    .nav-icon{
         width: 100px;
     }
-    .nav-icons i{
+    .nav-icon i{
         font-size:9px;
         letter-spacing: 10px;
     }
@@ -159,6 +159,7 @@
     }
     .header-article img{
         margin-top:10px;
+        height: 30vh;
     }
     .article-button{
         margin-top:20px;
@@ -178,6 +179,7 @@
     }
     .page-article img{
         margin-bottom: 10px;
+        height:15vh;
     }
     .page-article p{
         font-size: 7px; 
@@ -201,6 +203,9 @@
     .page-nav-button:last-of-type{
         width:45px;
         letter-spacing: 1px;
+    }
+    .message-article-persontextarea{
+        height:36vh;
     }
     .message-article-persontextarea label{
         margin-bottom: 5px;
@@ -247,16 +252,18 @@
         letter-spacing: 1px;
         line-height: 1;
     }
-    .owner-info nav-icons{
-        width:150%;
-        text-align: center;
-     }
+    .nav-icons{
+        width: 100%;
+        text-align: start;
+    }
     .owner-info i{
-        width: 10px;
-        height: 10px;
-        margin-left: 3px;
-        font-size: 7px;
-        line-height:1.5;  
+        width: 5px;
+        height: 5px;
+        line-height: 0.5;
+        padding:8px;
+        padding-right: 12px;
+        margin-right: 3px;
+        font-size: 10px;
     }
     .footer{
         height: 50px;

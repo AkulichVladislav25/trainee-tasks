@@ -130,7 +130,7 @@
         margin-right:25px;
     }
     .header-article{
-        height:200vw;
+        padding-top: 40px;
     }
     .navigation{
         display: none;
@@ -158,8 +158,15 @@
         width:60vw;
         text-align: center;
     }
+    .article-button{
+        padding: 0 20px;
+        line-height: 2;
+        font-size: 10px;
+    }
     .header-article img{
         margin-top:10px;
+        width: 65vw;
+        height: 20vh;
     }
     .info-article{
         flex-direction: column;
@@ -191,7 +198,7 @@
         margin-bottom: 10px;
     }
     .page-article button{
-        padding: 0 10vw;
+        padding: 0 10px;
         margin-top:10px;
         margin-bottom:15px;
     }
@@ -246,9 +253,9 @@
     }
     .field-button{
         width:80vw;
+        text-align: center;
     }
     .message-article-persontextarea button{
-        width:80vw;
         margin-top:15px;
         margin-bottom: 10px;
         font-size:15px;
