@@ -33,7 +33,7 @@ function openCookiesRoom(password) {
    if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]==' ')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+5*Math.pow(10,2-i);
    if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]==' '))  result=result+2*Math.pow(10,2-i);
    if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+3*Math.pow(10,2-i); 
-   if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]==' ')&&(password[12+3*i]=='|')&&(password[20+3*i]==' rr')&&(password[21+3*i]==' ')&&(password[22+3*i]=='|'))  result=result+7*Math.pow(10,2-i);
+   if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]==' ')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]==' ')&&(password[22+3*i]=='|'))  result=result+7*Math.pow(10,2-i);
    i++;
   }
   return result;
