@@ -24,17 +24,18 @@
 
 function openCookiesRoom(password) {
   let i=0;
+  let k=0;
   let result=0;
-  while(i<=2){
-   if ((password[1+3*i]==' ')&&(password[10+3*i]=='|'))  result=result+4*Math.pow(10,2-i); else if ((password[1+3*i]==' ')&&(password[10+3*i]==' '))  result=result+Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+8*Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+9*Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]==' ')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+6*Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]==' ')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+5*Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]==' '))  result=result+2*Math.pow(10,2-i);
-   if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+3*Math.pow(10,2-i); 
-   if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]==' ')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]==' ')&&(password[22+3*i]=='|'))  result=result+7*Math.pow(10,2-i);
-   i++;
+  while(i<(password.length/10)){
+    if ((password[1+3*i]==' ')&&(password[10+3*i]=='|'))  result=result+4*Math.pow(10,2-i); else if ((password[1+3*i]==' ')&&(password[10+3*i]==' '))  result=result+Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+8*Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+9*Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]==' ')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+6*Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]=='|')&&(password[11+3*i]=='_')&&(password[12+3*i]==' ')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+5*Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]=='|')&&(password[21+3*i]=='_')&&(password[22+3*i]==' '))  result=result+2*Math.pow(10,2-i);
+    if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]=='_')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]=='_')&&(password[22+3*i]=='|'))  result=result+3*Math.pow(10,2-i); 
+    if ((password[1+3*i]=='_')&&(password[10+3*i]==' ')&&(password[11+3*i]==' ')&&(password[12+3*i]=='|')&&(password[20+3*i]==' ')&&(password[21+3*i]==' ')&&(password[22+3*i]=='|'))  result=result+7*Math.pow(10,2-i);
+    i++;
   }
   return result;
 }
